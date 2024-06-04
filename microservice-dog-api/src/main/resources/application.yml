@@ -1,0 +1,19 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: msvc-dog-api
+  config:
+    import: optional:configserver:http://localhost:8888
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+dogApi:
+  base-url: https://api.thedogapi.com/v1/
+  api-key: live_Ry8kbIvZdmNe2ImNQrGbUm4KlzzFbZydBwxSvpfFTum2rPKO74Rt2GQHro4XRoF1

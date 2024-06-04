@@ -23,6 +23,7 @@
         <module>microservice-eureka</module>
         <module>microservice-config</module>
         <module>microservice-placeholder</module>
+        <module>microservice-dog-api</module>
     </modules>
 
     <properties>
